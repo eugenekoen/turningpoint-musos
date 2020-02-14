@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image:url("splash.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#navigation{
+    background-color: rgb(252, 167, 152);
+    height: auto;
+    width: 100%;
+    margin-top: -30px;
+    margin-bottom: -15px;
+}
+
+#navigation p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: rgba(2, 2, 2, 0.815);
+}
+
+table{
+	border-collapse: collapse;
+	font-size: .95em;
+	font-family: 'Montserrat',sans-serif;
+    width: 100%;
+    white-space: nowrap;
+}
+
+table thead td {
+    border: 1px solid rgba(76, 175, 79, 0.63);
+    padding: 8px;
+    text-align: left;
+    color: white;
+  }
+
+table tbody td{
+    border: 1px solid rgba(76, 175, 79, 0.63);
+    padding: 8px;
+    text-align: left;
+    color: aqua;
+}
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+}
+
+tr:nth-child(even) {background-color: #f2f2f200;}
+tr:nth-child(odd) {background-color: #f2f2f200;}
+
+thead {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#songlist{
+    margin-bottom: 25px;
+}
+
+
+#musobutton{
+    background-color: rgb(252, 167, 152);
+    border: none;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+#musobutton a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+}
+
+#musoschedule{
+    margin-bottom: 25px;
+}
+
+#filter input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    background-color: honeydew;
+    margin-bottom: 8px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+
+#myTable{
+    margin-bottom: 15px;
+}
