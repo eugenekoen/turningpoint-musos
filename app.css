@@ -27,7 +27,7 @@ table{
 	font-size: .95em;
 	font-family: 'Montserrat',sans-serif;
     width: 100%;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 table thead td {
