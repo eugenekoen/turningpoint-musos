@@ -1,3 +1,4 @@
+/* BODY ELEMENT */
 body{
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ body{
     background-position: center;
 }
 
+/* NAVIGATION DIV */
 #navigation{
     background-color: rgb(252, 167, 152);
     height: auto;
@@ -15,82 +17,103 @@ body{
     margin-bottom: -15px;
 }
 
-#navigation p{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-size: 30px;
-    color: rgba(2, 2, 2, 0.815);
-}
+    #navigation p{
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 30px;
+        color: rgba(2, 2, 2, 0.815);
+    }
 
+/* GLOBAL TABLE ELEMENT */
 table{
 	border-collapse: collapse;
 	font-size: .95em;
 	font-family: 'Montserrat',sans-serif;
     width: 100%;
-    /* white-space: nowrap; */
 }
 
-table thead td {
-    border: 1px solid rgba(76, 175, 79, 0.63);
-    padding: 8px;
-    text-align: left;
+    table thead td {
+        border: 1px solid rgba(76, 175, 79, 0.63);
+        padding: 8px;
+        text-align: left;
+        color: white;
+    }
+
+    table tbody td{
+        border: 1px solid rgba(76, 175, 79, 0.63);
+        padding: 8px;
+        text-align: left;
+        color: aqua;
+    }
+
+    thead{
+        display: table-header-group;
+        vertical-align: middle;
+    }
+
+    tbody{
+        display: table-row-group;
+        vertical-align: middle;
+    }
+
+    tr:nth-child(even) {background-color: #f2f2f200;}
+    tr:nth-child(odd) {background-color: #f2f2f200;}
+
+    thead {
+    background-color: #4CAF50;
     color: white;
-  }
+    }
 
-table tbody td{
-    border: 1px solid rgba(76, 175, 79, 0.63);
-    padding: 8px;
-    text-align: left;
-    color: aqua;
-}
+    table a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+    }
 
-thead{
-    display: table-header-group;
-    vertical-align: middle;
-}
-
-tbody{
-	display: table-row-group;
-	vertical-align: middle;
-}
-
-tr:nth-child(even) {background-color: #f2f2f200;}
-tr:nth-child(odd) {background-color: #f2f2f200;}
-
-thead {
-  background-color: #4CAF50;
-  color: white;
-}
-
-table a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
+/* SONG LIST DIV */
 #songlist{
     margin-bottom: 25px;
 }
 
-
-#musobutton{
-    background-color: rgb(252, 167, 152);
-    border: none;
-    border-radius: 7px;
-    padding: 10px;
+/* VERSE OF THE DAY DIV */
+#verseoftheday{
+    margin-bottom: 25px;
 }
 
-#musobutton a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Montserrat',sans-serif;
-    font-weight: 500;
-}
+    #versebutton{
+        background-color: rgb(240, 64, 64);
+        border: none;
+        border-radius: 7px;
+        padding: 10px;
+    }
 
+    #versebutton a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+
+/* MUSO SCHEDULE DIV */
 #musoschedule{
     margin-bottom: 25px;
 }
 
+    #musobutton{
+        background-color: rgb(252, 167, 152);
+        border: none;
+        border-radius: 7px;
+        padding: 10px;
+    }
+
+        #musobutton a{
+            text-decoration: none;
+            color: black;
+            font-family: 'Montserrat',sans-serif;
+            font-weight: 500;
+        }
+
+/* FILTER FOR THE TABLE ELEMENT - SONG DATABASE ID #myTable */
 #filter input{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
@@ -101,6 +124,7 @@ table a{
     border-radius: 3px;
 }
 
+/* MYTABLE SONGS DATABASE DIV */
 #myTable{
     margin-bottom: 15px;
 }
