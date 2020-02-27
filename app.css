@@ -78,6 +78,7 @@ table{
 /* VERSE OF THE DAY DIV */
 #verseoftheday{
     margin-bottom: 25px;
+    display: none;
 }
 
     #versebutton{
