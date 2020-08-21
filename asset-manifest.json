@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/turningpoint-musos/static/css/main.d1b05096.chunk.css",
-    "main.js": "/turningpoint-musos/static/js/main.2cd25c7e.chunk.js",
-    "main.js.map": "/turningpoint-musos/static/js/main.2cd25c7e.chunk.js.map",
-    "runtime-main.js": "/turningpoint-musos/static/js/runtime-main.74364337.js",
-    "runtime-main.js.map": "/turningpoint-musos/static/js/runtime-main.74364337.js.map",
-    "static/js/2.091d124d.chunk.js": "/turningpoint-musos/static/js/2.091d124d.chunk.js",
-    "static/js/2.091d124d.chunk.js.map": "/turningpoint-musos/static/js/2.091d124d.chunk.js.map",
+    "main.css": "/turningpoint-musos/static/css/main.5f361e03.chunk.css",
+    "main.js": "/turningpoint-musos/static/js/main.3b719414.chunk.js",
+    "main.js.map": "/turningpoint-musos/static/js/main.3b719414.chunk.js.map",
+    "runtime-main.js": "/turningpoint-musos/static/js/runtime-main.7cf957d5.js",
+    "runtime-main.js.map": "/turningpoint-musos/static/js/runtime-main.7cf957d5.js.map",
+    "static/js/2.8ec57843.chunk.js": "/turningpoint-musos/static/js/2.8ec57843.chunk.js",
+    "static/js/2.8ec57843.chunk.js.map": "/turningpoint-musos/static/js/2.8ec57843.chunk.js.map",
     "index.html": "/turningpoint-musos/index.html",
-    "precache-manifest.1380e55c540e65d77cc10a7cbb243e22.js": "/turningpoint-musos/precache-manifest.1380e55c540e65d77cc10a7cbb243e22.js",
+    "precache-manifest.f9a35aee9cce753f16a06b3c9480100b.js": "/turningpoint-musos/precache-manifest.f9a35aee9cce753f16a06b3c9480100b.js",
     "service-worker.js": "/turningpoint-musos/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/turningpoint-musos/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.091d124d.chunk.js.LICENSE.txt": "/turningpoint-musos/static/js/2.091d124d.chunk.js.LICENSE.txt"
+    "static/css/main.5f361e03.chunk.css.map": "/turningpoint-musos/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.8ec57843.chunk.js.LICENSE.txt": "/turningpoint-musos/static/js/2.8ec57843.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.74364337.js",
-    "static/js/2.091d124d.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.2cd25c7e.chunk.js"
+    "static/js/runtime-main.7cf957d5.js",
+    "static/js/2.8ec57843.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.3b719414.chunk.js"
   ]
 }
