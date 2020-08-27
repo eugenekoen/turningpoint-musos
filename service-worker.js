@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/turningpoint-musos/precache-manifest.260662ab69cad585c4dc69efcd45c944.js"
+  "/turningpoint-musos/precache-manifest.d66247c6d921abe0679473e1cbb472ab.js"
 );
 
 self.addEventListener('message', (event) => {
