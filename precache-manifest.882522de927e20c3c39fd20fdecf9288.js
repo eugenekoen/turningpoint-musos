@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5189bc94fd297b601fd09121f1f7c591",
+    "revision": "253edb76a9dd2fb4f32d57a3eec4f421",
     "url": "/turningpoint-musos/index.html"
   },
   {
