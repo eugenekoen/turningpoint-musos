@@ -116,9 +116,9 @@ table{
 
 /* PRIVACY POLICY DOCUMENT TEST DIV */
 
-/* #privacypolicy{
-
-} */
+#privacypolicy{
+    display: none;
+}
 
 /* FILTER FOR THE TABLE ELEMENT - SONG DATABASE ID #myTable */
 #filter input{
